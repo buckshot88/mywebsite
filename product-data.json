@@ -1,1 +1,51 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "name": "Featured Product 1",
+      "description": "Description of Featured Product 1.",
+      "price": 39.99,
+      "image": "featured1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Featured Product 2",
+      "description": "Description of Featured Product 2.",
+      "price": 49.99,
+      "image": "featured2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Featured Product 3",
+      "description": "Description of Featured Product 3.",
+      "price": 29.99,
+      "image": "featured3.jpg"
+    }
+  ]
+}
 
+{
+  "bestSellers": [
+    {
+      "id": 1,
+      "name": "Best Seller 1",
+      "description": "Description of Best Seller 1.",
+      "price": 29.99,
+      "image": "bestseller1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Best Seller 2",
+      "description": "Description of Best Seller 2.",
+      "price": 34.99,
+      "image": "bestseller2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Best Seller 3",
+      "description": "Description of Best Seller 3.",
+      "price": 39.99,
+      "image": "bestseller3.jpg"
+    }
+  ]
+}
