@@ -1,16 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Print Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>3D Print Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<html>
-    <h1>
-        Hey, I'm keith.
-    </h1>
-    <body>
-        <h2>About me</h2>
-        <p>
-            i like to make 3d prints
-        </p>
-        <h2>What I'm working on</h2>
-        <p>
-            let me know how im doing.
-        </p>
-    </body>
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to our 3D Print Store</h2>
+            <p>Discover unique and high-quality 3D prints for all your needs.</p>
+            <a href="#products" class="btn">View Products</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1 Name</h3>
+                <p>Description of Product 1.</p>
+                <span class="price">$19.99</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2 Name</h3>
+                <p>Description of Product 2.</p>
+                <span class="price">$24.99</span>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products here -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about 3D printing and aim to provide the best quality prints to our customers.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to us.</p>
+            <form action="contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 3D Print Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
