@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Fetch featured products data
-    fetch('featured.json')
+    fetch('product-data.json')
         .then(response => response.json())
         .then(data => {
             const featuredContainer = document.querySelector('.featured-container');
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error fetching featured products:', error));
 
     // Fetch best sellers data
-    fetch('bestsellers.json')
+    fetch('product-data.json')
         .then(response => response.json())
         .then(data => {
             const bestSellersContainer = document.querySelector('.best-sellers-container');
