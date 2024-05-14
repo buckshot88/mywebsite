@@ -39,3 +39,17 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching best sellers:', error));
 });
+
+<section id="featured">
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="featured-container"></div>
+    </div>
+</section>
+
+<section id="best-sellers">
+    <div class="container">
+        <h2>Best Sellers</h2>
+        <div class="best-sellers-container"></div>
+    </div>
+</section>
